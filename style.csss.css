@@ -1,0 +1,189 @@
+
+Wael
+Wael Abu Hijleh
+*{
+    margin: 0;
+    display: swap;
+  }
+  p{
+    font-family: sans-serif;
+    color: silver;
+  }
+   h2{
+    margin-left: 70px;
+    font-family:sans-serif; 
+    font-size: 30px;
+    color:black;
+  }
+  body{
+    background-color:white;
+  }
+  h3{
+    font-size: 17px;
+    font-family:sans-serif;
+    color: silver;
+  }
+  h5{
+    font-family:sans-serif;
+    color:orange;
+  }
+  img {
+    border-radius: 5px;
+  }
+  ol li{
+   list-style: none;
+   float:left;
+   line-height: 100px;
+  }
+  ol li a{
+   text-decoration: none;
+   display: block;
+   font-size: 20px;
+   font-family: arial;
+   color:silver;
+   padding:0 30px;
+  }
+  #hd{
+    float: right;
+    width: 93px;
+    height: 30px;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 105px;
+  }
+  hr{
+    width: 1320px;
+    color: silver;
+    margin-left: 110px;
+  } 
+  .myDiv{
+    width: 40%; 
+    height: 550px;
+    float:left;
+    margin: 0 0 0 50px;
+    padding-left: 60px ;
+    padding-top: 25px;
+    background:white ; 
+  }
+  .myDiv img{
+    width:470px;
+    height:415px;
+  }
+  .gallery a img{
+    height: 100px;
+    width: 100px;
+    padding: 0px;
+    margin-right: 10px;
+    object-fit: cover;
+    padding-right: 10px;
+  }
+  .myDiv2{
+    width: 20%;
+    height:400px;  
+    float:right;
+    
+    background: white ;
+    margin:30px;
+    padding-left: 80px ;
+    padding-right: 40px ;
+    margin-top: 70px;
+  
+  }
+  .myDiv3{
+    width: 60%;
+    height:400px;  
+    float:center;
+    background: white ;
+    margin:700px;
+    padding-left: 80px ;
+    padding-right: 40px ;
+    margin-top: 70px;
+  
+  }
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+     h2{
+         margin: 0%;
+         font-size: 15px;
+        font-family:sans-serif;
+    }
+    h3{
+        font-size: 7.5px;
+        font-family:sans-serif;
+        padding-top: 8px;
+    }
+    ol{
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    ol li{
+        float:left;
+        line-height: 17px;
+       }
+       ol li a{
+        display: block;
+        text-transform: none;
+        color: silver;
+        padding:0 10px;
+        margin-left: 1px;
+        margin-right: 0%;
+        margin-bottom: 6px;
+       }
+       #hd{
+        float: right;
+        width: 40px;
+        height: 20px;
+        margin-top: -6.7%;
+        margin-right: 19px;
+      }
+      #hd img{
+        width: 16px;
+      }
+       hr{
+        width: 100%;
+        color: silver;
+        margin-left: 1px;
+        margin-bottom: 0%;        
+      } 
+      .myDiv{
+          width: 360px;
+          height: 410px;
+          margin: 0;
+          padding: 0;
+      }
+      .myDiv img{
+        width:345.5px ;
+        height:315px;
+        margin:0;
+        padding:0;  
+        object-fit:cover;
+        border-radius: 0%;
+      }
+      .gallery a img{
+        height: 70px;
+        width: 70px;
+        padding: 0px;
+        margin-right: 1px;
+        object-fit: cover;
+        padding-right: 8px;     
+        padding-left: 6px;
+        border-radius: 12%;
+      }
+     .myDiv2 h5{
+        font-size: 13px;
+      }
+      .myDiv2{
+        width: 335px;
+        height: 410px;
+        margin: 0;
+        padding: 0;
+        padding-left: 5px;
+      }
+  }
+#ttt{
+  width: 250px;
+  height: 250px;
+  
+}
