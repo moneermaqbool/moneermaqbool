@@ -1,0 +1,188 @@
+<script src="index.js"defer></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"
+      integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <script type="module">
+  </script>
+</head>
+<form>
+  <input id="textBox" type="text"/>
+  <button id="saveBtn">Save Data</button>
+</form>
+
+
+<div class="myDiv">
+    <img style="float: center;"
+   src="wwael.jpg">
+    <br><br> 
+    <div class="gallery">
+        <a href="wwwe.jpg">
+        <img  src="wwwe.jpg"  alt="Error">
+        </a>
+        <a href="dsd.jpg">
+        <img  src="dsd.jpg" alt="Error">
+        </a>
+        <a href="eeww.jpg">
+         <img  src="eeww.jpg" alt="Error">
+         </a>
+         <a href="rrtt.jpg">
+        <img  src="rrtt.jpg" alt="Error">
+        </a>
+       </div> 
+</div>
+<br>
+<div class="myDiv2">
+  <br>
+
+      <br>
+      <img  src="eeee.jpg"  alt="Error" id="ttt">
+      <form>
+        <input id="textBox" type="text"/>
+        <button id="saveBtn">Save Data</button>
+      </form>
+      <br> 
+
+
+    
+      <span style="font-weight: bold;font-size: 20px;font-family: sans-serif; color:black;" id="discount"></span>
+      <span>&nbsp;&nbsp;&nbsp;</span>             
+      <span style="font-weight: bold;font-size: 17px; color: orange; background-color:navajowhite;">1% </span>
+      <span style="font-weight: 900;color:silver;font-size:15px;"> $7.20</span>
+      <br>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="minus" onclick="down('0')"><i style="font-size:12px;" class="fa fa-minus" ></i>  </button>               
+      <label>
+      <input style="width:20px;height:18px;padding-top:5px;text-align:center;
+               padding-left: 10px; padding-right: 10px;"type="text" id="counter" value="0"/>       
+      </label>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="plus" onclick="up('10')"><i style="font-size: 12px;"class="fa fa-plus"></i></button>            
+      <button style="background-color:navajowhite;
+      
+       width:200px;height:30px;font-size:18px;border-radius:4px;padding-top:3px; padding-bottom: 10px; margin-left:5px;" 
+       onclick="alert('The item has been added to the cart')"> 
+       <     
+               <i class="fa fa-shopping-cart"   type="button">    Add to cart </i></button>
+               
+               <br>
+               <br>
+               <br>
+              
+               <img  src="dddd.jpg"  alt="Error" id="ttt">
+               <br>
+      <form>
+        <input id="textBox" type="text"/>
+        <button id="saveBtn">Save Data</button>
+      </form>
+      <br> 
+      
+    
+      <span style="font-weight: bold;font-size: 20px;font-family: sans-serif; color:black;" id="discount"></span>
+      <span>&nbsp;&nbsp;&nbsp;</span>             
+      <span style="font-weight: bold;font-size: 17px; color: orange; background-color:navajowhite;">2% <br></span>
+      <span style="font-weight: 900;color:silver;font-size:15px;"> $7.47</span>
+      <br><br>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="minus" onclick="down('0')"><i style="font-size:12px;" class="fa fa-minus" ></i>  </button>               
+      <label>
+      <input style="width:20px;height:18px;padding-top:5px;text-align:center;
+               padding-left: 10px; padding-right: 10px;"type="text" id="counter" value="0"/>       
+      </label>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="plus" onclick="up('10')"><i style="font-size: 12px;"class="fa fa-plus"></i></button>            
+      <button style="background-color:navajowhite;
+       width:200px;height:30px;font-size:18px;border-radius:4px;padding-top:3px; padding-bottom: 10px; margin-left:5px;" 
+       onclick="alert('The item has been added to the cart')">      
+               <i class="fa fa-shopping-cart" type="button">    Add to cart </i></button>
+               
+    </div>
+
+    <div class="myDiv3">
+      <br>
+      <br>
+      
+      
+
+      <img  src="wwwe.jpg"  alt="Error" id="ttt">
+      <form>
+        <input id="textBox" type="text"/>
+        <button id="saveBtn">Save Data</button>
+      </form>
+     
+
+   
+    
+    
+      <span style="font-weight: bold;font-size: 20px;font-family: sans-serif; color:black;" id="discount"></span>
+      <span>&nbsp;&nbsp;&nbsp;</span>        
+      <br>
+     
+        
+      <span style="font-weight: bold;font-size: 17px; color: orange; background-color:navajowhite;">4% </span>
+      <span style="font-weight: 900;color:silver;font-size:15px;"> $40.00</span>
+      <br>
+      
+    
+
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="minus" onclick="down('0')"><i style="font-size:12px;" class="fa fa-minus" ></i>  </button>               
+      <label>
+      <input style="width:20px;height:18px;padding-top:5px;text-align:center;
+               padding-left: 10px; padding-right: 10px;"type="text" id="counter" value="0"/>       
+      </label>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="plus" onclick="up('10')"><i style="font-size: 12px;"class="fa fa-plus"></i></button>            
+      <button style="background-color:navajowhite;
+      
+       width:200px;height:30px;font-size:18px;border-radius:4px;padding-top:3px; padding-bottom: 10px; margin-left:5px;" 
+       onclick="alert('The item has been added to the cart')"> 
+            
+               <i class="fa fa-shopping-cart"   type="button">    Add to cart </i></button>
+               
+               <br>
+               <br>
+               <br> 
+               <img  src="dsd.jpg"  alt="Error" id="ttt">
+      <form>
+        <input id="textBox" type="text"/>
+        <button id="saveBtn">Save Data</button>
+      </form>
+      <br> 
+    
+      
+
+    
+      <span style="font-weight: bold;font-size: 20px;font-family: sans-serif; color:black;" id="discount"></span>
+      <span>&nbsp;&nbsp;&nbsp;</span>             
+      <span style="font-weight: bold;font-size: 17px; color: orange; background-color:navajowhite;">2% <br></span>
+      <span style="font-weight: 900;color:silver;font-size:15px;"> $10.13</span>
+      <br><br>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="minus" onclick="down('0')"><i style="font-size:12px;" class="fa fa-minus" ></i>  </button>               
+      <label>
+      <input style="width:20px;height:18px;padding-top:5px;text-align:center;
+               padding-left: 10px; padding-right: 10px;"type="text" id="counter" value="0"/> 
+                   
+      </label>
+
+ 
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="plus" onclick="up('10')"><i style="font-size: 12px;"class="fa fa-plus"></i></button>          
+      
+      <button style="background-color:navajowhite;
+       width:200px;height:30px;font-size:18px;border-radius:4px;padding-top:3px; padding-bottom: 10px; margin-left:5px;" 
+       onclick="alert('The item has been added to the cart')">     
+       
+               <i class="fa fa-shopping-cart" type="button">    Add to cart </i></button>
+               
+    
+</div>
+    </div>
+
+   
+</body>
+<script>
+  // display photo full  screen  
+  photo();
+  function photo(){
+ lightGallery(document.querySelector('.gallery'));
+ }
+</script>
+
+
+    
+
+</html>
