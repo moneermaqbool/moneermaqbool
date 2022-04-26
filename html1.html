@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Macdonald's</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="selling shoes">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link  rel="stylesheet" type="text/css" href="abuhijleh.css" >
+ <link  rel="stylesheet" type="text/css" href="abuhijleh.js" >
+ <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+ <script src="index.js"defer></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"
+      integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-database.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-storage.js";
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDJbpDB0quEY5jpiVUR6KbWzrS8IO9OUlE",
+      authDomain: "mcdonaldsproject-8e4ab.firebaseapp.com",
+      projectId: "mcdonaldsproject-8e4ab",
+      storageBucket: "mcdonaldsproject-8e4ab.appspot.com",
+      messagingSenderId: "604533418033",
+      appId: "1:604533418033:web:719d805e365028f234cd10"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    /*$('#saveBtn').click((e)=>{
+      string txt = $("#textBox").val();
+        app.saveData("", txt)
+    })*/
+    //app.initializeApp(firebaseConfig);
+    
+    
+  </script>
+</head>
+<form>
+  <input id="textBox" type="text"/>
+  <button id="saveBtn">Save Data</button>
+</form>
+<body>
+     <ol>
+     <li>
+     <p> <a href="#"></a><h2>Macdonald's</h2></p>
+  </li>
+  </ol>
+     <ol>
+     <li> <a href="#"> <h3>Collections </h3> </a></li>
+     <li> <a href="#"> <h3>Family Meals </h3> </a></li>
+     <li> <a href="#"> <h3>Single Meals </h3> </a></li>
+     <li> <a href="#"> <h3>Offers </h3> </a></li>
+     <li> <a href="#"> <h3>Contact </h3> </a></li>
+   </ol>
+   <div id="hd">
+    <img style="float: left;" src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart.png" alt="icon user"/>
+    <img style="float: right;" src="https://img.icons8.com/material/32/000000/user-male-circle--v1.png"alt ="icon shopping"/>
+  </div>
+<hr>
