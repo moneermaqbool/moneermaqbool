@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Macdonald's</title>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="selling shoes">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link  rel="stylesheet" type="text/css" href="abuhijleh.css" >
+ <link  rel="stylesheet" type="text/css" href="abuhijleh.js" >
+ <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet"> 
+ <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+ <script src="index.js"defer></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"
+      integrity="sha512-b4rL1m5b76KrUhDkj2Vf14Y0l1NtbiNXwV+SzOzLGv6Tz1roJHa70yr8RmTUswrauu2Wgb/xBJPR8v80pQYKtQ==" 
+      crossorigin="anonymous" referrerpolicy="no-referrer">
+  </script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-app.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-database.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.11/firebase-storage.js";
+
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyDJbpDB0quEY5jpiVUR6KbWzrS8IO9OUlE",
+      authDomain: "mcdonaldsproject-8e4ab.firebaseapp.com",
+      projectId: "mcdonaldsproject-8e4ab",
+      storageBucket: "mcdonaldsproject-8e4ab.appspot.com",
+      messagingSenderId: "604533418033",
+      appId: "1:604533418033:web:719d805e365028f234cd10"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    /*$('#saveBtn').click((e)=>{
+      string txt = $("#textBox").val();
+        app.saveData("", txt)
+    })*/
+    //app.initializeApp(firebaseConfig);
+    
+    
+  </script>
+</head>
+
+ 
+
+<body>
+ 
+     <ol>
+     <li>
+     <p> <a href="#"></a><h2><img  src="TTT.jpg"  alt="Error"></h2></p>
+  </li>
+  </ol>
+  
+
+     <ol>
+     <li> <a href="#"> <h3>Collections </h3> </a></li>
+     <li> <a href="family.htm"> <h3>Family Meals </h3> </a></li>
+     <li> <a href="single.htm"> <h3>Single Meals </h3> </a></li>
+     <li> <a href="offers.htm"> <h3>Offers </h3> </a></li>
+     <li> <a href="#"> <h3>Contact </h3> </a></li>
+   </ol>
+
+
+
+   <div id="hd">
+    <img style="float: left;" src="https://img.icons8.com/ios-glyphs/30/000000/shopping-cart.png" alt="icon user"/>
+    <img style="float: right;" src="https://img.icons8.com/material/32/000000/user-male-circle--v1.png"alt ="icon shopping"/>
+    
+    <i class='fas fa-map-marker-alt'></i>
+    <i class='fas fa-map-marker-alt' style='font-size:24px'></i>
+    <i class='fas fa-map-marker-alt' style='font-size:36px'></i>
+    <i class='fas fa-map-marker-alt' style='font-size:48px;color:red'></i>
+  </div>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<hr>
+<br>
+<br>
+<div class="myDiv">
+    <img style="float: center;"
+    
+   src="wwael.jpg">
+    <br><br> 
+    <div class="gallery">
+        <a href="wwwe.jpg">
+        <img  src="wwwe.jpg"  alt="Error">
+        </a>
+        <a href="dsd.jpg">
+        <img  src="dsd.jpg" alt="Error">
+        </a>
+        <a href="eeww.jpg">
+         <img  src="eeww.jpg" alt="Error">
+         </a>
+         <a href="rrtt.jpg">
+        <img  src="rrtt.jpg" alt="Error">
+        </a>
+       </div> 
+</div>
+<br>
+<div class="myDiv2">
+  <br>
+
+      <br>
+      <img  src="eeee.jpg"  alt="Error" id="ttt">
+      <form>
+        <input id="textBox" type="text"/>
+        <button id="saveBtn">Save Data</button>
+      </form>
+      <br> 
+
+
+    
+      <span style="font-weight: bold;font-size: 20px;font-family: sans-serif; color:black;" id="discount"></span>
+      <span>&nbsp;&nbsp;&nbsp;</span>             
+      <span style="font-weight: bold;font-size: 17px; color: orange; background-color:navajowhite;">1% </span>
+      <span style="font-weight: 900;color:silver;font-size:15px;"> $7.20</span>
+      <br>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="minus" onclick="down('0')"><i style="font-size:12px;" class="fa fa-minus" ></i>  </button>               
+      <label>
+      <input style="width:20px;height:18px;padding-top:5px;text-align:center;
+               padding-left: 10px; padding-right: 10px;"type="text" id="counter" value="0"/>       
+      </label>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="plus" onclick="up('10')"><i style="font-size: 12px;"class="fa fa-plus"></i></button>            
+      <button style="background-color:navajowhite;
+      
+       width:200px;height:30px;font-size:18px;border-radius:4px;padding-top:3px; padding-bottom: 10px; margin-left:5px;" 
+       onclick="alert('The item has been added to the cart')"> 
+       <     
+               <i class="fa fa-shopping-cart"   type="button">    Add to cart </i></button>
+               
+               <br>
+               <br>
+               <br>
+              
+               <img  src="dddd.jpg"  alt="Error" id="ttt">
+               <br>
+      <form>
+        <input id="textBox" type="text"/>
+        <button id="saveBtn">Save Data</button>
+      </form>
+      <br> 
+      
+    
+      <span style="font-weight: bold;font-size: 20px;font-family: sans-serif; color:black;" id="discount"></span>
+      <span>&nbsp;&nbsp;&nbsp;</span>             
+      <span style="font-weight: bold;font-size: 17px; color: orange; background-color:navajowhite;">2% <br></span>
+      <span style="font-weight: 900;color:silver;font-size:15px;"> $7.47</span>
+      <br><br>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="minus" onclick="down('0')"><i style="font-size:12px;" class="fa fa-minus" ></i>  </button>               
+      <label>
+      <input style="width:20px;height:18px;padding-top:5px;text-align:center;
+               padding-left: 10px; padding-right: 10px;"type="text" id="counter" value="0"/>       
+      </label>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="plus" onclick="up('10')"><i style="font-size: 12px;"class="fa fa-plus"></i></button>            
+      <button style="background-color:navajowhite;
+       width:200px;height:30px;font-size:18px;border-radius:4px;padding-top:3px; padding-bottom: 10px; margin-left:5px;" 
+       onclick="alert('The item has been added to the cart')">      
+               <i class="fa fa-shopping-cart" type="button">    Add to cart </i></button>
+               
+    </div>
+
+    <div class="myDiv3">
+      <br>
+      <br>
+      
+      
+
+      <img  src="wwwe.jpg"  alt="Error" id="ttt">
+      <form>
+        <input id="textBox" type="text"/>
+        <button id="saveBtn">Save Data</button>
+      </form>
+     
+
+   
+    
+    
+      <span style="font-weight: bold;font-size: 20px;font-family: sans-serif; color:black;" id="discount"></span>
+      <span>&nbsp;&nbsp;&nbsp;</span>        
+      <br>
+     
+        
+      <span style="font-weight: bold;font-size: 17px; color: orange; background-color:navajowhite;">4% </span>
+      <span style="font-weight: 900;color:silver;font-size:15px;"> $40.00</span>
+      <br>
+      
+    
+
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="minus" onclick="down('0')"><i style="font-size:12px;" class="fa fa-minus" ></i>  </button>               
+      <label>
+      <input style="width:20px;height:18px;padding-top:5px;text-align:center;
+               padding-left: 10px; padding-right: 10px;"type="text" id="counter" value="0"/>       
+      </label>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="plus" onclick="up('10')"><i style="font-size: 12px;"class="fa fa-plus"></i></button>            
+      <button style="background-color:navajowhite;
+      
+       width:200px;height:30px;font-size:18px;border-radius:4px;padding-top:3px; padding-bottom: 10px; margin-left:5px;" 
+       onclick="alert('The item has been added to the cart')"> 
+            
+               <i class="fa fa-shopping-cart"   type="button">    Add to cart </i></button>
+               
+               <br>
+               <br>
+               <br> 
+               <img  src="dsd.jpg"  alt="Error" id="ttt">
+      <form>
+        <input id="textBox" type="text"/>
+        <button id="saveBtn">Save Data</button>
+      </form>
+      <br> 
+    
+      
+
+    
+      <span style="font-weight: bold;font-size: 20px;font-family: sans-serif; color:black;" id="discount"></span>
+      <span>&nbsp;&nbsp;&nbsp;</span>             
+      <span style="font-weight: bold;font-size: 17px; color: orange; background-color:navajowhite;">2% <br></span>
+      <span style="font-weight: 900;color:silver;font-size:15px;"> $10.13</span>
+      <br><br>
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="minus" onclick="down('0')"><i style="font-size:12px;" class="fa fa-minus" ></i>  </button>               
+      <label>
+      <input style="width:20px;height:18px;padding-top:5px;text-align:center;
+               padding-left: 10px; padding-right: 10px;"type="text" id="counter" value="0"/> 
+                   
+      </label>
+
+ 
+      <button style="width:35px;height:30px;background-color:whitesmoke;border-radius:4px;padding-top:5px;"aria-label="plus" onclick="up('10')"><i style="font-size: 12px;"class="fa fa-plus"></i></button>          
+      
+      <button style="background-color:navajowhite;
+       width:200px;height:30px;font-size:18px;border-radius:4px;padding-top:3px; padding-bottom: 10px; margin-left:5px;" 
+       onclick="alert('The item has been added to the cart')">     
+       
+               <i class="fa fa-shopping-cart" type="button">    Add to cart </i></button>
+               
+    
+</div>
+    </div>
+
+   
+</body>
+<script>
+  // display photo full  screen  
+  photo();
+  function photo(){
+ lightGallery(document.querySelector('.gallery'));
+ }
+</script>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<ol>
+  <li>
+    
+  <p> <a href="#"></a><h2>Macdonald's </h2></p>
+  
+
+  <a href="#" class="fa fa-facebook"></a>
+  <a href="#" class="fa fa-google"></a>
+  <a href="#" class="fa fa-instagram"></a>
+<br>
+
+</li>
+</ol>
+  <ol>
+  <li> <a href="#"> <h3> We welcome you, our valued customers,
+     to communicate with us. We offer you some social networking sites</h3> </a></li>
+
+</ol>
+    
+
+</html>
